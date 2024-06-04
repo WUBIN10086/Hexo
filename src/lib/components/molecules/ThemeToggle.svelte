@@ -50,6 +50,7 @@
 
 <style lang="scss">
 	.theme-toggle {
+
 		height: 24px;
 		padding: 0;
 		appearance: none;
@@ -59,6 +60,7 @@
 		display: flex;
 		align-items: center;
 		gap: 5px;
+
 
 		&:hover {
 			.label {
@@ -93,14 +95,14 @@
 		transform-origin: left;
 		transform: scale(1.25);
 		max-width: 0;
-		// color: var(--color--text);
-		color: azure;
+		color: var(--color--text);
+		// color: azure;
 	}
 
 	#moon,
 	#sun {
-		// fill: var(--color--text);
-		fill: azure;
+		fill: var(--color--text);
+		// fill: azure;
 		stroke: none;
 	}
 
@@ -111,8 +113,8 @@
 
 	#sun-beams {
 		--_opacity-dur: 0.15s;
-		// stroke: var(--color--text);
-		stroke: azure;
+		stroke: var(--color--text);
+		// stroke: azure;
 		stroke-width: 2px;
 		transform-origin: center center;
 		transition: all 0.5s var(--ease-elastic-4), opacity var(--_opacity-dur) var(--ease-3);

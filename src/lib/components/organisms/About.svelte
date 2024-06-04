@@ -48,13 +48,16 @@
 			display: flex;
 			flex-direction: column;
 			gap: 10px;
+			
 			h2 {
+				// padding-left: 20%;
 				@include for-phone-only {
 					text-align: center;
 				}
 			}
 
 			p {
+				// padding-left: 20%;
 				@include for-phone-only {
 					text-align: justify;
 				}
@@ -69,7 +72,7 @@
 			display: flex;
 			align-items: center;
 			gap: 15px;
-
+			// padding-left: 20%;
 			@include for-phone-only {
 				justify-content: center;
 				margin-bottom: 10px;

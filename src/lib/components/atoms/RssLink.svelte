@@ -11,10 +11,10 @@
 			transition: all 0.2s ease-in-out;
 			width: 24px;
 			transform: scale(1.28);
-			// color: var(--color--text);
-			// fill: var(--color--text);
-			color: azure;
-			fill: azure;
+			color: var(--color--text);
+			fill: var(--color--text);
+			// color: azure;
+			// fill: azure;
 			&:hover {
 				color: var(--color--primary);
 				fill: var(--color--primary);

@@ -1,0 +1,36 @@
+{
+	"/(waves)": [
+		"src/routes/(waves)/+page.server.ts",
+		"src/routes/+layout.ts",
+		"src/routes/+layout.ts"
+	],
+	"/(blog-article)": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/": [
+		"src/routes/+layout.ts"
+	],
+	"/(waves)/404": [
+		"src/routes/+layout.ts"
+	],
+	"/(blog-article)/blog-posts": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/(waves)/blog": [
+		"src/routes/(waves)/blog/+page.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/(blog-article)/customization": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/(blog-article)/project-structure": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
+	"/rss.xml": [
+		"src/routes/rss.xml/+server.ts"
+	]
+}

@@ -60,8 +60,7 @@
 		}
 
 		a {
-			// color: var(--color--text);
-			color: azure;
+			color: var(--color--text);
 		}
 
 		.links {
@@ -69,18 +68,27 @@
 			align-items: center;
 			justify-content: flex-end;
 			gap: 30px;
-			
 
 			a {
+				position: relative;
 				text-decoration: none;
-				font-size:20pt;
+				font-size: 20pt;
 				font-weight: bold;
-				height: auto;
-				// font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-				&:hover {
-					color: var(--color--primary);
-					// color: azure;
-					filter: drop-shadow(0px 0px 3px var(--color--primary));
+				&::after {
+					content: '';
+					position: absolute;
+					width: 100%;
+					transform: scaleX(0);
+					height: 2px;
+					bottom: 0;
+					left: 0;
+					background-color: var(--color--text);
+					transform-origin: bottom right;
+					transition: transform 0.3s ease-out;
+				}
+				&:hover::after {
+					transform: scaleX(1);
+					transform-origin: bottom left;
 				}
 			}
 		}

@@ -47,3 +47,7 @@
 			var(--color--text-inverse)
 		)};
 }
+
+@mixin define-variable($title, $value) {
+	--#{$title}: #{$value};
+}

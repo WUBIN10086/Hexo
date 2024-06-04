@@ -11,10 +11,17 @@
 	</div>
 	<div class="content">
 		<div class="copyright">
-			This template was built by <a
+			This template refer to <a
 				href="https://fantinel.dev?utm_source=site-template"
 				target="_blank"
 				rel="noopener noreferrer">Matheus Fantinel</a
+			>.
+		</div>
+		<div class="copyright">
+			Modified by <a
+				href="https://wubin10086.github.io/"
+				target="_blank"
+				rel="noopener noreferrer">BIN WU</a
 			>.
 		</div>
 		<div class="credits">

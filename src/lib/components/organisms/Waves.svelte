@@ -40,8 +40,32 @@
 <style lang="scss">
 	@import '$lib/scss/_breakpoints.scss';
 	.waves-container {
+
+		&::before {
+			content: '';
+			position:absolute;
+			align-self: auto;
+			top: 22px;
+			
+			width: 60%;
+			height: 6vh;
+			background: linear-gradient(
+				to right,
+				var(--color--title-backgroud-start),
+				var(--color--title-backgroud-end)
+			); /* 渐变效果 */
+			backdrop-filter: blur(8px); /* 模糊效果 */
+			border-radius: 15px; /* 圆角 */
+			// z-index: -1; /* 确保背景在内容后面 */
+			@include for-phone-only {
+				width: 100%;
+				top: 18px;
+			}
+		}
+		
 		// background: linear-gradient(60deg, var(--color--waves-start) 0%, var(--color--waves-end) 100%);
-		background: url('http://www.panguidc.com/images/2024/02/20/0fa2d94043b6169ff3a783c467900d36.jpeg') no-repeat center center;
+		// background: url('http://www.panguidc.com/images/2024/02/20/0fa2d94043b6169ff3a783c467900d36.jpeg') no-repeat center center;
+		background: var(--photo-background) no-repeat center center;
 		position: absolute;
 		// position: relative;
 		background-size: cover;

@@ -23,17 +23,17 @@
 		align-items: center;
 		gap: 15px;
 		position: relative;
-		padding: 250px 0;
+		padding: 220px 0;
 
 		@include for-phone-only {
-			padding: 40px 0 50px;
+			padding: 60px 0 100px;
 		}
 
 		.hello {
 			text-align: center;
 			color: white;
-			font-size: 4.5rem;
-			font-family: 'Arial', sans-serif;
+			font-size: 300%;
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 			opacity: 0.8;
 		}
 
