@@ -46,8 +46,7 @@
 			position:absolute;
 			align-self: auto;
 			top: 22px;
-			
-			width: 60%;
+			width: 1200px;
 			height: 6vh;
 			background: linear-gradient(
 				to right,

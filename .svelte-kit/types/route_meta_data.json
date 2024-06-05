@@ -14,6 +14,10 @@
 	"/(waves)/404": [
 		"src/routes/+layout.ts"
 	],
+	"/(blog-article)/Ubuntu-install-Nvidia-Driver": [
+		"src/routes/(blog-article)/+layout.server.ts",
+		"src/routes/+layout.ts"
+	],
 	"/(blog-article)/blog-posts": [
 		"src/routes/(blog-article)/+layout.server.ts",
 		"src/routes/+layout.ts"
@@ -22,7 +26,7 @@
 		"src/routes/(waves)/blog/+page.server.ts",
 		"src/routes/+layout.ts"
 	],
-	"/(blog-article)/customization": [
+	"/(blog-article)/fuzzy-logic": [
 		"src/routes/(blog-article)/+layout.server.ts",
 		"src/routes/+layout.ts"
 	],

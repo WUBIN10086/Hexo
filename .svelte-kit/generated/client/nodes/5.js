@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/(blog-article)/customization/+page.md";
+export { default as component } from "../../../../src/routes/(blog-article)/blog-posts/+page.md";

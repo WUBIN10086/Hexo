@@ -1,1 +1,1 @@
-export { default as component } from "../../../../src/routes/(blog-article)/blog-posts/+page.md";
+export { default as component } from "../../../../src/routes/(blog-article)/Ubuntu-install-Nvidia-Driver/+page.md";

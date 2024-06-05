@@ -39,7 +39,7 @@
 	@include define-color('code-text', #ffffff);
 	@include define-color('code-inline-background', #e3e3e3);
 
-	@include define-variable('photo-background', 'url(http://img.netbian.com/file/2024/0409/0018201IxUo.jpg)');
+	@include define-variable('photo-background', 'url(/images/0018201IxUo.jpg)');
 	// --card-backgroud: url(--variable-card-background);
 	--color--waves-start: rgba(var(--color--primary-rgb), 0.3);
 	--color--waves-end: rgba(var(--color--primary-rgb), 0.1);
@@ -84,7 +84,7 @@
 	@include define-color('callout-accent--success', #00c48f);
 
 	@include define-color('code-inline-background', #2b3131);
-	@include define-variable('photo-background', 'url(http://www.panguidc.com/images/2024/02/20/0fa2d94043b6169ff3a783c467900d36.jpeg)');
+	@include define-variable('photo-background', 'url(/images/0fa2d94043b6169ff3a783c467900d36.jpeg)');
 
 }
 
