@@ -26,6 +26,7 @@
  * ```
  */
 declare module '$env/static/private' {
+	export const VITE_OPENAI_API_KEY: string;
 	export const GJS_DEBUG_TOPICS: string;
 	export const LESSOPEN: string;
 	export const CONDA_PROMPT_MODIFIER: string;
@@ -176,6 +177,7 @@ declare module '$env/static/public' {
  */
 declare module '$env/dynamic/private' {
 	export const env: {
+		VITE_OPENAI_API_KEY: string;
 		GJS_DEBUG_TOPICS: string;
 		LESSOPEN: string;
 		CONDA_PROMPT_MODIFIER: string;

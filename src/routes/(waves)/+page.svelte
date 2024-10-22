@@ -4,6 +4,7 @@
 	import RecentPosts from '$lib/components/organisms/RecentPosts.svelte';
 	import Features from '$lib/components/organisms/Features.svelte';
 	import type { Feature, BlogPost } from '$lib/utils/types';
+    import Chatbot from '$lib/components/organisms/Chatbot.svelte';
 
 	export let data: {
 		features: Feature[];
@@ -19,5 +20,6 @@
 	{#if posts && posts.length > 0}
 		<RecentPosts {posts} />
 	{/if}
-	<Features {features} />
+	<!-- <Features {features} /> -->
+	<Chatbot />
 </div>
